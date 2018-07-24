@@ -1,213 +1,160 @@
 <html>
 <head>
-	<style>
-	.button1 {
-        padding: 8px 20px;
-        text-align: center;
-        cursor: pointer;
-        outline: none;
-        color: #fff;
-        background-color: #00e6b8;
-        }
-      .button2 {
-        background-color: #ffffff;
-        color: #000;
-      }
-      .nav {
-          display: inline-block;
-      }
-
-      .nav a {
-          color: black;
-          float: left;
-          padding: 8px 16px;
-          text-decoration: none;
-          transition: background-color .3s;
-          
-      }
-
-      .nav a.active {
-          background-color: #3399ff;
-          color: white;
-          border: 1px solid #3399ff;
-      }
-
-      .nav a:hover:not(.active) {background-color: #ddd;}
-
-      .im {
-      	 background-image: url('images/img-1.jpg');
-      	 max-width: 100%
-	}
-      textarea {
-	    width: 80%;
-	    padding: 12px 20px;
-	    box-sizing: border-box;
-	    border: 2px solid #ccc;
-	    background-color: #f8f8f8;
-	    resize: none;
-	}
-	input[type=text] {
-	    width: 80%;
-	    padding: 12px 20px;
-	    margin: 8px 0;
-	    box-sizing: border-box;
-	    background-color: #f8f8f8;
-	}
-    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
-	
-	<div align="center" style="box-sizing: border-box; width:100%;">
-		
-	<header>
-		<div style="height: 100px; width:100%;">
-			<div align="left" style="float: left; height: 10px; width:50%;">
-				<a href="#"><img src="images/LOGO_small.svg" width="100px" height="100px"></a>
-			</div>
-			<div align="right" style="padding-top:50px; float: right; height: 10px; width:50%;">
-				<button class="button1 button2">SIGN IN</button>
-				<button class="button1">IN BOX</button>
-			</div>
-		</div>
-		
-		<div class="nav" style="border-top: 1px solid black; border-bottom: 1px solid black; padding-top:10px; height: 40px; width:100%;">
-			<div style=" padding-left:50px;">
-				<a href="#">Inbox</a>
-				<a href="#">Bundles</a>
-				<a href="#">Highlights</a>
-				<a href="#">Reminders</a>
-				<a href="#">Snooze</a>
-				<a href="#">Get Inbox</a>
-			</div>
-		</div>
-	</header>
+    
+    <div align="center" class="main_container">
+        
+    <header>
+        <div class="header_head">
+            <div align="left"  class="logo_image">
+                <a href="#"><img src="images/LOGO_small.svg" width="100px" height="100px"></a>
+            </div>
+            <div align="right" class="header_button" >
+                <button class="button_green button_white">SIGN IN</button>
+                <button class="button_green">IN BOX</button>
+            </div>
+        </div>
+        
+        <div class="nav" class="header_div">
+            <div style=" padding-left:50px;">
+                <a href="#">Inbox</a>
+                <a href="#">Bundles</a>
+                <a href="#">Highlights</a>
+                <a href="#">Reminders</a>
+                <a href="#">Snooze</a>
+                <a href="#">Get Inbox</a>
+            </div>
+        </div>
+    </header>
 
 
 
 
-		<div style="height: 500px; width:100%;">
-			<div align="center" style="padding-top:20px; height:300px; width:100%;">
-				<img src="images/Banner_Logo.svg">
-			</div>
-			<div align="center" style="padding-top:20px; height:200px; width:100%;">
-				<h1>The Inbox That Works For You</h1><br>
-				<button class="button1">IN BOX</button>
-			</div>
-		</div>
-		
+        <div style="height: 500px; width:100%;">
+            <div align="center" class="banner_logo">
+                <img src="images/Banner_Logo.svg">
+            </div>
+            <div align="center" class="tagline">
+                <h1>The Inbox That Works For You</h1><br>
+                <button class="button_green">IN BOX</button>
+            </div>
+        </div>
+        
 
-			<div style="height:300px; width:80%;">
-				<div style="background-color:#f0f5f5; float: left; height:100%; width:50%;">
-					<div style="text-align:left; padding:20px;">
-						<h3>Heading</h3><br>
-						<p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file.</p>
-						<br><a href="#"><span style="color:green">>More</span></a>
-					</div>
-				</div>
-				<div style="float: right; height:100%; width:50%;">
-					<img style="max-width: 100%; " height="300px" src="images/img-0.jpg">
-				</div>
-		
-			</div>
-
-
-
-
-		
-			<div align="center" style="height: 400px; width:80%;">
-				<div align="center" style="float: left; height:100%; width:33%;">
-					<img height="200px" width="250px" src="images/glass.jpg">
-					<br><h4>Item Name</h4>
-					<br><hr width="20px">
-					<br><font color="grey">$250</font><br>
-					<button class="button1">Add To Cart</button>
-				</div>
-				<div align="center" style="margin:0 auto; float: left; height:100%; width:33%;">
-					<img height="200px" width="250px" src="images/shoes.jpg">
-					<br><h4>Item Name</h4>
-					<br><hr width="20px">
-					<br><font color="grey">$225</font><br>
-					<button class="button1">Add To Cart</button>
-				</div>
-				<div align="center" style="float: left; height:100%; width:33%;">
-					<img height="200px" width="250px" src="images/bag.jpg">
-					<br><h4>Item Name</h4>
-					<br><hr width="20px">
-					<br><font color="grey">$235</font><br>
-					<button class="button1">Add To Cart</button>
-				</div>
-			</div>
-		
+            <div class="watch_div">
+                <div class="watch_text">
+                    <div style="text-align:left; padding:20px;">
+                        <h3>Heading</h3><br>
+                        <p>CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.This separation can improve content accessibility, provide more flexibility and control in the specification of presentation characteristics, enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file.</p>
+                        <br><a href="#"><span style="color:green">>More</span></a>
+                    </div>
+                </div>
+                <div class="watch_image">
+                    <img style="max-width: 100%; " height="300px" src="images/img-0.jpg">
+                </div>
+        
+            </div>
 
 
 
 
-        <div align="left" style="box-sizing: border-box; padding-left: 10%; padding-top: 20px; background-color:#eff5f5; height: 300px; width:100%;">
-        	
-	        	<h4>Promotions are now neatly organised</h4>
-	        	<br><hr color="grey" align="left" width="400px"><br>
+        
+            <div align="center" class="items">
+                <div align="center" class="item">
+                    <img height="200px" width="250px" src="images/glass.jpg">
+                    <br><h4>Shades</h4>
+                    <br><hr width="20px">
+                    <br><font color="grey">$250</font><br>
+                    <button class="button_green">Add To Cart</button>
+                </div>
+                <div align="center" class="item shoes">
+                    <img height="200px" width="250px" src="images/shoes.jpg">
+                    <br><h4>Shoes</h4>
+                    <br><hr width="20px">
+                    <br><font color="grey">$225</font><br>
+                    <button class="button_green">Add To Cart</button>
+                </div>
+                <div align="center" class="item">
+                    <img height="200px" width="250px" src="images/bag.jpg">
+                    <br><h4>Bag</h4>
+                    <br><hr width="20px">
+                    <br><font color="grey">$235</font><br>
+                    <button class="button_green">Add To Cart</button>
+                </div>
+            </div>
+        
 
-	        	<ul>
-	        			<li style="color:#00e6b8"><h5><span style="color:black">Gravity is the only force that affects light and infinite gravity can slow down time relatively with one in normal gravity.</span></h5></li>
-	        			<li style="color:#00e6b8"><h5><span style="color:black">Gravity is the only force that affects light and infinite gravity can slow down time relatively with one in normal gravity.</span></h5></li>
-
-						<li style="color:#00e6b8"><h5><span style="color:black">Gravity is the only force that affects light and infinite gravity can slow down time relatively with one in normal gravity.</span></h5></li>
-						<li style="color:#00e6b8"><h5><span style="color:black">Gravity is the only force that affects light and infinite gravity can slow down time relatively with one in normal gravity.</span></h5></li>
 
 
-	        	</ul>
-        	
+
+        <div align="left" class="promotion">
+            
+                <h4>Promotions are now neatly organised</h4>
+                <br><hr color="grey" align="left" width="400px"><br>
+
+                <ul>
+                        <li style="color:#00e6b8"><h5><span style="color:black">Gravity is the only force that affects light and infinite gravity can slow down time relatively with one in normal gravity.</span></h5></li>
+                        <li style="color:#00e6b8"><h5><span style="color:black">Gravity is the only force that affects light and infinite gravity can slow down time relatively with one in normal gravity.</span></h5></li>
+
+                        <li style="color:#00e6b8"><h5><span style="color:black">Gravity is the only force that affects light and infinite gravity can slow down time relatively with one in normal gravity.</span></h5></li>
+                        <li style="color:#00e6b8"><h5><span style="color:black">Gravity is the only force that affects light and infinite gravity can slow down time relatively with one in normal gravity.</span></h5></li>
+
+
+                </ul>
+            
         </div>
 
         <div align="left" class="im" style="padding-top: 200px; height: 350px; width:100%;">
-            <div style=" padding-left: 10%; height: 150px; width:40%;">
-            	<h3>hello how are you mann?</h3><br>
-            	<h5>Havana, ooh na-na (ay)<br>Half of my heart is in Havana, ooh-na-na (ay, ay) </h5>
-            	<br><hr align="left" width="20px">
-			    <br><font color="grey">$225</font><br><br>
-			    <button class="button1">Add To Cart</button>
+            <div class="sun_glass">
+                <h3>Sun Protection glasses - Black</h3><br>
+                <h5>Havana, ooh na-na (ay)<br>Half of my heart is in Havana, ooh-na-na (ay, ay) </h5>
+                <br><hr align="left" width="20px">
+                <br><font color="grey">$225</font><br><br>
+                <button class="button_green">Add To Cart</button>
             </div>
-		</div>
+        </div>
 
 
 
 
-		
-			<div style="float: left; height:300px; width:50%;">
-				<div align="center" style="padding-left: 50px; padding-top: 50px;">
-                	<form>
-						<input type="text" placeholder="Name"/>
-						<br><input type="text" placeholder="email">
-						<br><textarea rows="8" cols="33" placeholder="Message"></textarea>
-						<br><button class="button1">SEND</button>
-					</form>
-				</div>
-			</div>
-			<div style="float: left; height:300px; width:50%;">
-				<footer style="padding-top:100px; padding-left:50px; background-color:#eff5f5; height: 100%; width:80%;">
-					<div style="background-color:#eff5f5; height: 100%; width:80%;">
-						<table>
-							<tr>
-								<td><h3><b>Elit Justo</b></h3></td>
-						    </tr><tr>
-								<td><p>4 Dapibus Ligula Parturient</p></td>
-								<td><b>Monday - Friday</b></td>
-								<tr>
-									<td>New York, NY 12345</td>
-									<td>10AM - 8PM</td></tr>
-									<tr><td>USA</td><td><b>Saturday - Sunday</b></td></tr>
-									<tr><td></td><td>10AM - 6PM</td></tr>
-									<tr><td><b>EMAIL US</b></td></tr>
-						</table>
-					</footer>
-				</div>
-			</div>
-		
+        
+            <div align="center" class="footer_form">
+        
+                        <form>
+                        <input type="text" placeholder="Name"/>
+                        <br><input type="text" placeholder="email">
+                        <br><textarea rows="8" cols="33" placeholder="Message"></textarea>
+                        <br><button class="button_green">SEND</button>
+                </form>
+            </div>
+    
+            <div class="footer_div2">
+                <footer class="footer_div">
+                
+                        <table>
+                            <tr>
+                                <td><h3><b>Elit Justo</b></h3></td>
+                            </tr><tr>
+                                <td><p>4 Dapibus Ligula Parturient</p></td>
+                                <td><b>Monday - Friday</b></td>
+                                <tr>
+                                    <td>New York, NY 12345</td>
+                                    <td>10AM - 8PM</td></tr>
+                                    <tr><td>USA</td><td><b>Saturday - Sunday</b></td></tr>
+                                    <tr><td></td><td>10AM - 6PM</td></tr>
+                                    <tr><td><b>EMAIL US</b></td></tr>
+                        </table>                    
+                    
+                </footer>
+            </div>
+        
 
 
 
 
-	</div>
+    </div>
 
 </html>

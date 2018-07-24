@@ -1,0 +1,124 @@
+.main_container{
+    box-sizing: border-box; width:100%;
+    
+    }
+    .button_green {
+        padding: 8px 20px;
+        text-align: center;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #00e6b8;
+        }
+      .button_white {
+        background-color: #ffffff;
+        color: #000;
+      }
+      .nav {
+          display: inline-block;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      padding-top:10px;
+      height: 40px;
+      width:100%;
+      }
+
+      .nav a {
+          color: black;
+          float: left;
+          padding: 8px 16px;
+          text-decoration: none;
+          transition: background-color .3s;
+          
+      }
+
+      .nav a.active {
+          background-color: #3399ff;
+          color: white;
+          border: 1px solid #3399ff;
+      }
+
+      .nav a:hover:not(.active) {background-color: #ddd;}
+
+      .im {
+           background-image: url('images/img-1.jpg');
+           max-width: 100%
+    }
+      textarea {
+        width: 80%;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        background-color: #f8f8f8;
+        resize: none;
+    }
+    input[type=text] {
+        width: 80%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        background-color: #f8f8f8;
+    }
+    .header_head{
+    height: 100px; width:100%;
+    }
+    .header_button{
+    padding-top:50px;
+    float: right;
+    height: 10px;
+    width:50%;"
+    }
+    .logo_image{
+    float: left;
+    height: 10px;
+    width:50%;"
+    }
+    .header_div{
+    height: 100px; 
+    width:100%;
+    }
+    .banner_logo{
+    padding-top:20px; 
+    height:300px; 
+    width:100%;
+    }
+    .watch_div{
+    height:300px; 
+    width:80%;
+    }
+    .watch_text{
+    background-color:#f0f5f5; float: left; height:100%; width:50%;
+    }
+    .watch_image{
+    float: right; height:100%; width:50%;
+    }
+    .items{
+    height: 400px; width:80%;
+    }
+    .item{
+    float: left; height:100%; width:33%;
+    }
+    .shoes{
+    margin:0 auto; 
+    }
+    
+    .promotion{
+    box-sizing: border-box; padding-left: 10%; padding-top: 20px; background-color:#eff5f5; height: 300px; width:100%;
+    }
+    .sun_glass{
+    padding-left: 10%; height: 150px; width:40%;
+    }
+    .footer_div{
+    padding-top:100px; padding-left:50px; background-color:#eff5f5; height: 100%; width:80%;
+    background-color:#eff5f5; height: 100%; width:80%;
+    
+    }
+    .footer_div2{
+    float: right; height:300px; width:50%;
+    }
+    .footer_form{
+    float: left; height:300px; width:50%; box-sizing: border-box;padding-top: 50px;
+    }
+    .tagline{
+    padding-top:20px; height:200px; width:100%;
+    }
